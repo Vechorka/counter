@@ -5,7 +5,7 @@ type CounterType = {
 }
 
 const Counter = (props: CounterType) => {
- return <div>{props.counter}</div>
+ return <h1>{props.counter}</h1>
 }
 
 export default Counter
